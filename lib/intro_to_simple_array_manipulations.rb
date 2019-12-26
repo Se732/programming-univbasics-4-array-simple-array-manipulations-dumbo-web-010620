@@ -18,7 +18,7 @@ def pop_with_args(array)
  small_dogs = ["Chihuahua","Shiba Inu"]
  small_dogs.pop(2)
 end
-small_dogs
+
 
 def using_shift(array)
   my_favorite_cities = ["Lagos","jersey","bayonne","manhattan","baltimore","toms river"]
