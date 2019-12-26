@@ -40,7 +40,7 @@ end
 def using_insert(array,element)
   games = ["mario","call of duty","wwe","need for speed"]
   games.insert("2k19")
-  p games 
+  p games
 end
 
 def using_uniq(array)
