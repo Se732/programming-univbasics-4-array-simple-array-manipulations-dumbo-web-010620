@@ -20,21 +20,16 @@ end
 
 
 def using_shift(array)
-  my_favorite_cities = ["Lagos","jersey","bayonne","manhattan","baltimore","toms river"]
-  my_favorite_cities.shift
-
+  array.shift
 end
 
 def shift_with_args(array)
-  games = ["need for speed","mario","call of duty",]
-  games.shift(2)
+array.shift(2)
 
 end
 
 def using_concat(array1,array2)
-all_my_favs = ["raindrops on roses", "whiskers on kittens", ]
-  characters = ["sports cars", "flatiron school"]
-  all_my_favs.concat(characters)
+array1.concat(array2)
 end
 
 def using_insert(array,element)
