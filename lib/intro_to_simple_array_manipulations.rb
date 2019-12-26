@@ -31,9 +31,7 @@ array1.concat(array2)
 end
 
 def using_insert(array,element)
-  games = ["mario","call of duty","wwe","need for speed"]
-  games.insert("2k19")
-  p games
+array.insert(4,element)
 end
 
 def using_uniq(array)
