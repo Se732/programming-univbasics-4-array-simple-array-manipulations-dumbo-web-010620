@@ -11,8 +11,6 @@ end
 def using_pop(array)
   contients = ["North America", "South America", "Europe","Australia", "Africa", "Asia", "Antarctica"]
   contients.pop
-
-
 end
 
 def pop_with_args(array)
