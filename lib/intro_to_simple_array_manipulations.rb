@@ -11,6 +11,7 @@ end
 def using_pop(array)
   contients = ["North America", "South America", "Europe","Australia", "Africa", "Asia", "Antarctica"]
   contients.pop
+  p contients
 end
 
 def pop_with_args(array)
@@ -58,7 +59,7 @@ def using_delete(array,string)
   instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
   while instructors.include?("Steven") do
     instructors.delete
-    puts instructors
+     instructors
   end
 
 end
