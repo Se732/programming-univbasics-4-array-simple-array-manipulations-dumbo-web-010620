@@ -9,9 +9,7 @@ def using_unshift(array,string)
 end
 
 def using_pop(array)
-  contients = ["North America", "South America", "Europe","Australia", "Africa", "Asia", "Antarctica"]
-  contients.pop
-  p contients
+array.pop
 end
 
 def pop_with_args(array)
@@ -50,12 +48,7 @@ def using_flatten(array)
 end
 
 def using_delete(array,string)
-  instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-  while instructors.include?("Steven") do
-    instructors.delete
-     instructors
-  end
-
+array.delete(string)
 end
 
 def using_delete_at(array,integer)
